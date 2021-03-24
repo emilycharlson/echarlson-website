@@ -19,9 +19,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     text-align: center;
-    padding: 0 20px;
+    padding: 0px 20px;
 }
 
 #showcase h1 {
@@ -48,14 +48,29 @@ body {
 
 #showcase .button:hover {
     background:rgb(62, 59, 59);
-    color: #fff;
+    color: #f4f4f4;
 }
 
 #section-a {
-    padding: 20px;
-    background:rgb(79, 74, 74);
-    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header1   content1";
+    grid-gap: 20px;
+    padding: 50px;
+    background-color: #fff;
+    color:rgb(62, 59, 59);
     text-align: center;
+    
+}
+
+.header1 {
+    grid-area: "header1";
+    text-align: center;
+}
+
+.content1 {
+    grid-area: "content1";
+    
 }
 
 #section-b {
@@ -71,15 +86,6 @@ body {
 
 #section-c div {
     padding: 20px;
-}
-
-#section-c .box1, #section-c .box3 {
-    background:rgb(79, 74, 74);
-    color: #fff;
-}
-
-#section-c .box2 {
-    background: #f9f9f9;
 }
 
 
