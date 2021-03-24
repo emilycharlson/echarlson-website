@@ -2,4 +2,4 @@
 
 ## Description
 
-A splash page introducing myself and technical skills.
+A landing page introducing myself and technical skills.
