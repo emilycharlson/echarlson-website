@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
 body {
     line-height: 1.7em;
     color: #7f8c8d;
@@ -280,82 +284,3 @@ a.pure-button-primary {
         font-size: 300%;
     }
 }
-
-/* #showcase {
-    background-image:url('../img/website-pic.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-start;
-    text-align: center;
-    padding: 0px 20px;
-}
-
-#showcase h1 {
-    font-size: 50px;
-    
-}
-
-#showcase p {
-    font-size: 20px;
-    
-}
-
-#showcase .button {
-    font-size: 18px;
-    text-decoration: none;
-    color:rgb(62, 59, 59);
-    border:rgb(62, 59, 59) 1px solid;
-    padding: 7px 15px;
-    border-radius: 10px;
-    margin-top: 20px;
-    display: flex;
-
-}
-
-#showcase .button:hover {
-    background:rgb(62, 59, 59);
-    color: #f4f4f4;
-}
-
-#section-a {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "header1   content1";
-    grid-gap: 20px;
-    padding: 50px;
-    background-color: #fff;
-    color:rgb(62, 59, 59);
-    text-align: center;
-    
-}
-
-.header1 {
-    grid-area: "header1";
-    text-align: center;
-}
-
-.content1 {
-    grid-area: "content1";
-    
-}
-
-#section-b {
-    padding: 20px;
-    background:#f4f4f4;
-    text-align: center;
-}
-
-#section-c {
-    display: flex;
-    
-}
-
-#section-c div {
-    padding: 20px;
-}
-*/
-
