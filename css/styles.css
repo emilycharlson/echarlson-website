@@ -27,6 +27,7 @@ label {
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
+    position: center;
 }
 
 /*
@@ -172,7 +173,7 @@ a.pure-button-primary {
 .splash-subhead {
     color: white;
     letter-spacing: 0.05em;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /*
@@ -201,16 +202,17 @@ a.pure-button-primary {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 2em 0 1em;
+    color: #1E1F1E
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
-    color: white;
+    color: #1E1F1E
 }
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    color: #1E1F1E
 }
     .content-subhead i {
         margin-right: 7px;
@@ -218,8 +220,8 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
-    color: #aaa;
+    background: #CAC8BF;
+    color:#1E1F1E
 }
 
 /* This is the class used for the footer */
@@ -251,6 +253,7 @@ a.pure-button-primary {
             float: right;
         }
 
+    
     /* We increase the height of the splash-container */
 /*    .splash-container {
         height: 500px;
