@@ -21,7 +21,7 @@ h4,
 h5,
 h6,
 label {
-    color: #34495e;
+    color: #2c302c;
 }
 
 .pure-img-responsive {
@@ -212,11 +212,19 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1E1F1E
+    color: #1E1F1E;
+    text-align: center;
 }
-    .content-subhead i {
-        margin-right: 7px;
-    }
+
+.content-subhead a {
+    text-decoration: none;
+    color: #1E1F1E;
+}
+
+.content-subhead a:hover {
+    color: #6d622d;
+}
+
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
@@ -224,12 +232,33 @@ a.pure-button-primary {
     color:#1E1F1E
 }
 
-/* This is the class used for the footer */
-.footer {
-    background: #111;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+
+#tender-pic {
+    max-height: 45%;
+    max-width: 45%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#flashcard-pic {
+    max-height: 45%;
+    max-width: 45%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#editing-pic {
+    max-height: 45%;
+    max-width: 45%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+#tenmo-pic {
+    max-height: 45%;
+    max-width: 45%;
+    margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 /*
