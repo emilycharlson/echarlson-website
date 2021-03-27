@@ -109,7 +109,12 @@ a.pure-button-primary {
 
 .button-xsmall {
     font-size: 70%;
+    font-weight: 600;
     padding: 0.5em 1em;
+    background: white;
+    color: #333556;
+    border-color: #333556;
+    border: 1px solid #333556;
 }
 
 /*
