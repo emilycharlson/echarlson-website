@@ -68,10 +68,10 @@ label {
 }
 
 .pure-form input[type]:focus {
-    box-shadow: 0 0 5px #585da7;
     padding: 3px 0px 3px 3px;
     margin: 5px 1px 3px 0px;
     border: 1px solid #585da7;
+    box-shadow: 0 0 5px #585da7;
 }
 
 textarea[type]:focus {
@@ -94,12 +94,22 @@ textarea[type]:focus {
     border-radius: 5px;
 }
 
+.pure-button:hover {
+    border: 1px solid #585da7;
+    box-shadow: 0 0 5px #585da7;
+}
+
 a.pure-button-primary {
     background: white;
     color: #333556;
     border-radius: 5px;
     padding: 15px 30px;
     font-size: 120%;
+}
+
+.button-xsmall {
+    font-size: 70%;
+    padding: 0.5em 1em;
 }
 
 /*
@@ -190,7 +200,7 @@ a.pure-button-primary {
 
 
 
-/* This is the class used for the content sub-headers (<h3>) */
+/* This is the class used for the project sub-headers (<h3>) */
 .content-subhead {
     color: #333556;
 }
@@ -213,6 +223,7 @@ a.pure-button-primary {
     color: white;
 }
 
+/* Connect links */
 .connect a {
     text-decoration: none;
     color: #585da7;
