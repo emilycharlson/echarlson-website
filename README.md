@@ -4,6 +4,10 @@
 
 A landing page introducing myself and technical skills.
 
+## View Live
+
+echarlson.com
+
 ## Implementation
 
-HTML, CSS
+HTML, CSS, Netlify, and Pure.css
