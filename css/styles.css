@@ -68,10 +68,10 @@ label {
 }
 
 .pure-form input[type]:focus {
-    box-shadow: 0 0 5px #585da7;
     padding: 3px 0px 3px 3px;
     margin: 5px 1px 3px 0px;
     border: 1px solid #585da7;
+    box-shadow: 0 0 5px #585da7;
 }
 
 textarea[type]:focus {
@@ -92,14 +92,58 @@ textarea[type]:focus {
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
+    font-weight: 400;
+    font-size: 90%;
+    
 }
 
-a.pure-button-primary {
-    background: white;
+.pure-button:hover {
+    border: 1px solid #585da7;
+    box-shadow: 0 0 5px #585da7;
+}
+
+.large-button {
+    background-color: white;
+    opacity: 0.9;
     color: #333556;
     border-radius: 5px;
     padding: 15px 30px;
     font-size: 120%;
+    text-decoration: none;
+}
+
+.large-button:hover {
+    border: 1px solid #585da7;
+    box-shadow: 0 0 5px #585da7;
+}
+
+.pure-button-primary:hover {
+    background-color: white;
+} 
+
+
+.button-xsmall {
+    font-size: 70%;
+    font-weight: 400;
+    padding: 0.5em 1em;
+    background: #333556;
+    color: white;
+    border-color: #333556;
+    border: 1px solid #333556;
+}
+
+.button-xsmall i {
+    margin-right: 5px;
+}
+
+#live {
+    background-color: rgb(8, 150, 8);
+    
+    border-color: rgb(8, 150, 8);
+}
+
+#live i {
+    margin-right: 5px;
 }
 
 /*
@@ -190,7 +234,7 @@ a.pure-button-primary {
 
 
 
-/* This is the class used for the content sub-headers (<h3>) */
+/* This is the class used for the project sub-headers (<h3>) */
 .content-subhead {
     color: #333556;
 }
@@ -213,6 +257,7 @@ a.pure-button-primary {
     color: white;
 }
 
+/* Connect links */
 .connect a {
     text-decoration: none;
     color: #585da7;
