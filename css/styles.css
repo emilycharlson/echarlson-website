@@ -161,6 +161,7 @@ textarea[type]:focus {
     top: 0;
     left: 0;
     position: fixed !important;
+
 }
 
 .splash {
