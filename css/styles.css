@@ -72,6 +72,7 @@ label {
     margin: 5px 1px 3px 0px;
     border: 1px solid #585da7;
     box-shadow: 0 0 5px #585da7;
+    width: 100%;
 }
 
 textarea[type]:focus {
@@ -79,6 +80,10 @@ textarea[type]:focus {
     padding: 3px 0px 3px 3px;
     margin: 5px 1px 3px 0px;
     border: 1px solid #585da7;
+}
+
+.pure-form .pure-input-1-2 {
+    width: 100%;
 }
   
 
