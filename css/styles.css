@@ -142,9 +142,9 @@ textarea[type]:focus {
 }
 
 #live {
-    background-color: rgb(8, 150, 8);
+    background-color: #62b2e8;
     
-    border-color: rgb(8, 150, 8);
+    border-color: #62b2e8;
 }
 
 #live i {
